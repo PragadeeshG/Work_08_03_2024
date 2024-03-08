@@ -1,0 +1,16 @@
+create table if not exists graphical_data_representation(
+data_ref_id bigint not null,
+x_axis_colours varchar(255) null,
+y_axis_colours varchar(255) null,
+x_axis_data varchar(255) null,
+y_axis_data varchar(255) null,
+graph_type varchar(255) null,
+graph_formula varchar(255) null,
+remarks varchar(255) null,
+data_description varchar(255) null,
+duration bigint null,
+is_active char null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint graphical_data_representation_pk primary key(data_ref_id));
